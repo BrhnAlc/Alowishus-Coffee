@@ -2,4 +2,52 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 60rem;
+    margin: 2vh auto 10vh;
+}
+.header_div-img{
+    display: flex;
+    justify-content: left;
+
+
+}
+.header_div-a{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    align-items:center;
+    text-align: center;
+    
+}
+.header_button{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 0.5rem;
+    font-size: 10px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.section1{
+    position: relative;
+    width: 28rem;
+    height: 40rem;
+    margin-top: 1rem;
+}
+
+h1{
+    display: flex;
+    font-size: 6rem;
+    font-weight: bold;
+    line-height: 7rem;
+    
 }
