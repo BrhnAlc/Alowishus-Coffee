@@ -4,16 +4,24 @@
     box-sizing: border-box;
     background-color: white;
     text-decoration: none;
+} 
+
+body{
+    font-family: 'Jost', sans-serif;
 }
+
 header{
     display: flex;
     justify-content: space-between;
     width: 60rem;
     margin: 2vh auto 10vh;
 }
+ 
+
 .header_div-img{
-    display: flex;
-    justify-content: left;
+    width: 15rem;
+     display: flex;
+    justify-content: left; 
 
 
 }
@@ -25,6 +33,14 @@ header{
     text-align: center;
     
 }
+.header_div-a a:hover{
+color: chocolate;
+}
+
+.header_div-a i:hover{
+    color: chocolate;
+}
+
 .header_button{
     background-color: black;
     color: white;
@@ -32,12 +48,17 @@ header{
     padding: 0.5rem;
     font-size: 10px;
 }
+.header_button:hover{
+    color: chocolate;
+}
+
 main{
     display: flex;
     justify-content: center;
+    
 }
 
-.section1{
+.section_left{
     position: relative;
     width: 28rem;
     height: 40rem;
@@ -45,9 +66,73 @@ main{
 }
 
 h1{
-    display: flex;
-    font-size: 6rem;
+    font-size: 6.6rem;
     font-weight: bold;
     line-height: 7rem;
+    
+}
+ h1 img{
+    width: 5rem;
+}
+.section_left-p{
+  width: 350px;
+}
+
+.section_left-button{
+    margin-top: 20px;
+}
+  .section_left  button{
+
+  font-size: 13.333px; 
+  text-align: center;
+  background-color: #000000;
+  height: 51.333px;
+  width: 176.177px;
+  color: white; 
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.section_left   button:hover{
+  color: chocolate;
+}
+
+.section_right-coffee{
+    width:60px ;
+    height: 523.823px;
+    display: flex;
+    
+}
+.section_left-button a{
+    margin-left: 2rem;
+    color: black;
+    font-size:15px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.section_left-button a:hover{
+color:chocolate;
+}
+.section_right-logo{
+    position: absolute;
+    top: 10rem;
+    right: 5rem;
+    text-decoration: none solid rgb(0, 0,0);
+    background: 0% 0%;
+    background-color: #ffffff;
+    word-spacing: 0px;
+    
+ }
+.section_right-mask img{
+     position: absolute;
+    top: 13.1rem;
+    margin-left: 6.4rem;
+    width: 24rem;
+    background-color: white;
+    background: none;
+} 
+
+.footer{
+   position:absolute;
     
 }
