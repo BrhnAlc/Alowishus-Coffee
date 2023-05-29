@@ -134,5 +134,9 @@ color:chocolate;
 
 .footer{
    position:absolute;
+   top: 35rem;
+   height: 60px;
+   width: 200px;
+   border-radius: 10px;
     
 }
