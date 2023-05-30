@@ -54,7 +54,8 @@ color: chocolate;
 
 main{
     display: flex;
-    justify-content: center;
+    margin-left: 9rem;
+
     
 }
 
@@ -116,7 +117,7 @@ color:chocolate;
 .section_right-logo{
     position: absolute;
     top: 10rem;
-    right: 5rem;
+    right: 10rem;
     text-decoration: none solid rgb(0, 0,0);
     background: 0% 0%;
     background-color: #ffffff;
@@ -133,10 +134,14 @@ color:chocolate;
 } 
 
 .footer{
-   position:absolute;
-   top: 35rem;
-   height: 60px;
+   position: absolute;
+   top: 30rem;
+   right: 28rem;
    width: 200px;
    border-radius: 10px;
+   padding: 15px;
+   font-size: 15px;
+
+   
     
 }
